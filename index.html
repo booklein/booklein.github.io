@@ -35,6 +35,7 @@
 		== BEGIN MAIN CONTENT ==
 		========================
 		-->
+		<div id="fb-root"></div>
 		<main id="main-content" class="hero-subscribe-layout"> <!-- margin value is the height of your footer -->
 
 			<!--
@@ -78,22 +79,25 @@
 
 											</div><!--/ .hero-subscribe-wrapper -->
 										</div> <!--/ .row -->
+										<div class="row" id="main-footer">
+											<ul class="footer-social">
+												<li><a href="https://www.facebook.com/bookleforkids" style="color: #f6a006;">Join us on Facebook <span class="icon-facebook3"></span></a></li>
+												<li><div class="fb-like" data-href="https://www.facebook.com/bookleforkids" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div></li>
+												<li><div class="fb-send" data-href="https://www.facebook.com/bookleforkids"></div></li>
+						<!--						
+												<li><a href="#"><span class="icon-twitter3"></span></a></li>
+												<li><a href="#"><span class="icon-google-plus3"></span></a></li>
+						-->						
+											</ul> <!--/ .footer-social -->
+											
+											
+															</div> <!--/ .row -->
+
+
 										<!--/ End Hero Subscribe -->
 									</div> <!--/ .col-lg-12 -->
 
 								</div> <!--/ .row -->
-
-
-				<div class="row" id="main-footer">
-					<ul class="footer-social">
-						<li><a href="https://www.facebook.com/bookleforkids" style="color: #f6a006;">Join us on Facebook<span class="icon-facebook3"></span></a></li>
-<!--						
-						<li><a href="#"><span class="icon-twitter3"></span></a></li>
-						<li><a href="#"><span class="icon-google-plus3"></span></a></li>
--->						
-					</ul> <!--/ .footer-social -->
-
-				</div> <!--/ .row -->
 
 
 
@@ -174,5 +178,14 @@
 		  ga('send', 'pageview');
 
 		</script>
-	
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=456478731226984";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 </body></html>
